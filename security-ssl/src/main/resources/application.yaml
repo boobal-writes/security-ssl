@@ -1,0 +1,8 @@
+server:
+  ssl:
+    key-store: classpath:cert-keystore.p12
+    key-store-password: cert-keystore-pass
+    key-store-type: pkcs12
+    key-alias: mudivili-first-certificate
+    key-password: cert-keystore-pass
+  port: 8443
